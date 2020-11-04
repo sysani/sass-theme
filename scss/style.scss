@@ -84,3 +84,12 @@ img {
   line-height: 1.8;
   margin-bottom: 1.8rem;
 }
+
+//user profile
+.profile-grid {
+  display: grid;
+  grid-template-areas:
+    'top about'
+    'games groups';
+  grid-gap: 1rem;
+}
