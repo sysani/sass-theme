@@ -92,4 +92,29 @@ img {
     'top about'
     'games groups';
   grid-gap: 1rem;
+
+  .profile-top {
+    grid-area: top;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    img {
+      width: 150px;
+    }
+  }
+
+  .profile-about {
+    grid-area: about;
+  }
+
+  .profile-games {
+    grid-area: games;
+  }
+
+  .profile-groups {
+    grid-area: groups;
+  }
 }
