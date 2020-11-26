@@ -16,7 +16,8 @@
     border: 1px solid #ccc;
   }
 
-  input[type='submit'] {
+  input[type='submit'],
+  textarea {
     font: inherit;
   }
 }
